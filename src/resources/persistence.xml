@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence xmlns="http://java.sun.com/xml/ns/persistence"
+version="1.0">
+<persistence-unit name="dataPersistence" transaction-type="RESOURCE_LOCAL" >
+<class>dev.sathiyan.spring.bean.Employee</class>
+<class>dev.sathiyan.spring.bean.AccountUser</class>
+<!-- <class>dev.sathiyan.spring.bean.Department</class>
+<class>dev.sathiyan.spring.bean.EmpDepart</class> -->
+
+</persistence-unit>
+</persistence>
